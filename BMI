@@ -1,0 +1,12 @@
+#in the bellow program we will create bmi calculator
+
+name = "yk" #name is variable, name refer to "yk"
+height = 2 #height is variable, height refer to 2
+weight = 90 #weight is variable, weight refer to 90
+bmi = weight / (height ** 2) #here we have use formula
+print ("bmi:-") #here "bmi" sting will get print
+print (bmi) #here we will get calculation of bmi
+if bmi < 25:#use if condition
+    print (name, "is not overweight") #if above syntax is true, this result will print
+else: #here we have used else condition
+    print (name, "is overweight") #if above syntax is false this result will print.
